@@ -1,0 +1,120 @@
+.ui-slider {
+    position: relative;
+}
+
+/* Width, height and positioning for the sliders
+*/
+.ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    -ms-touch-action: none;
+    cursor: pointer;
+    top: -10px;
+    margin-left: -10px;
+}
+
+.ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+/* support: IE8 - See #6727
+*/
+.ui-slider-handle,
+.ui-slider-range {
+    filter: inherit;
+}
+
+/* Height of horizontal strip
+*/
+.ui-slider-horizontal {
+    height: 2px;
+}
+
+.ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+.ui-slider-range-min {
+    left: 0;
+}
+
+.ui-slider-range-max {
+    right: 0;
+}
+
+/* Line Styling
+*/
+.ui-widget-content {
+    background: #d7dcde;
+}
+
+/* Styling the space between the sliders
+*/
+.ui-widget-header {
+    background: #00ca74;
+}
+
+/* Styling the sliders
+*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    width: 4px;
+    height: 4px;
+    background: #ababab;
+    border: 8px solid #fff;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    -webkit-box-shadow: 0 2px 0 #ccc, inset 0 1px 0 #fff;
+    -moz-box-shadow: 0 2px 0 #ccc, inset 0 1px 0 #fff;
+    -ms-box-shadow: 0 2px 0 #ccc, inset 0 1px 0 #fff;
+    -o-box-shadow: 0 2px 0 #ccc, inset 0 1px 0 #fff;
+    box-shadow: 0 2px 0 #ccc, inset 0 1px 0 #fff;
+}
+
+#amount_1, #amount_2 {
+    background: #f1f1f1;
+    color: #283136;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.masonry {
+    width: 180px;
+    background: #f1f1f1;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.slider-block {
+    width: 240px;
+}
+
+.amount {
+    width: 240px;
+}
+
+div .amount_1 {
+    float: left;
+}
+
+div .amount_2 {
+    float: right;
+}
