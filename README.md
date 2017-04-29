@@ -46,4 +46,4 @@ With the mockup provided with an icon font, you need to use it in the mockup. Na
 + The quantity of goods in the right block can be any, it should not break the page.
 
 ## In addition to the technical assignment:
-+ Markers of the price filter (catalog.html) are mobile and when they move, the price changes using jQueryUI.
++ Markers of the price filter (catalog.html) are mobile and when they move, the price changes using [jQuery UI](http://jqueryui.com).
